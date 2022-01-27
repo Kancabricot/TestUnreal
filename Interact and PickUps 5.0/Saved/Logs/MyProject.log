@@ -5829,3 +5829,351 @@ LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
 [2022.01.27-16.27.09:556][476]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
 [2022.01.27-16.27.09:593][476]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
 [2022.01.27-16.27.09:613][477]LogPlayLevel: Display: Destroying online subsystem :Context_67
+[2022.01.27-16.28.01:649][879]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2022.01.27-16.28.01:675][879]LogSavePackage: Moving '../../../../../git/TestUnreal/Interact and PickUps 5.0/Saved/FirstPersonExampleMap_Auto2846302784ED97828C12EFA9C5F2D532F.tmp' to '../../../../../git/TestUnreal/Interact and PickUps 5.0/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap'
+[2022.01.27-16.28.01:678][879]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.057
+[2022.01.27-16.28.01:678][879]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.057
+[2022.01.27-16.28.01:679][879]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2022.01.27-16.28.01:766][879]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2022.01.27-16.28.01:766][879]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2022.01.27-16.28.01:858][879]LogSavePackage: Moving '../../../../../git/TestUnreal/Interact and PickUps 5.0/Saved/FirstPersonCharacter_Auto2187BE1D34D0C301C830B46A4B4227667.tmp' to '../../../../../git/TestUnreal/Interact and PickUps 5.0/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto2.uasset'
+[2022.01.27-16.28.01:860][879]LogFileHelpers: Auto-saving content packages took 0.182
+[2022.01.27-16.31.04:054][867]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.01.27-16.31.04:062][867]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.01.27-16.31.04:062][867]PIE: New page: PIE session: FirstPersonExampleMap (27 janv. 2022 à 18:31:04)
+[2022.01.27-16.31.04:062][867]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.01.27-16.31.04:076][867]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013621s)
+[2022.01.27-16.31.04:077][867]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2022.01.27-16.31.04:078][867]LogPlayLevel: PIE: World Init took: (0.002278s)
+[2022.01.27-16.31.04:078][867]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.016136s)
+[2022.01.27-16.31.04:122][867]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2022.01.27-16.31.04:123][867]LogAudio: Display: Creating Audio Device:                 Id: 63, Scope: Unique, Realtime: True
+[2022.01.27-16.31.04:123][867]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.27-16.31.04:123][867]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.27-16.31.04:123][867]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.27-16.31.04:124][867]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.27-16.31.04:124][867]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.27-16.31.04:124][867]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.27-16.31.04:124][867]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.27-16.31.04:124][867]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.27-16.31.04:124][867]LogAudio: Display: Using built-in audio occlusion.
+[2022.01.27-16.31.04:124][867]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.27-16.31.04:137][867]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.27-16.31.04:137][867]LogAudioMixer: Display: 1: FrontRight
+[2022.01.27-16.31.04:162][867]LogAudioMixer: Display: Using Audio Device VX228 (NVIDIA High Definition Audio)
+[2022.01.27-16.31.04:162][867]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.27-16.31.04:162][867]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.27-16.31.04:162][867]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.27-16.31.04:163][867]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.01.27-16.31.04:163][867]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.01.27-16.31.04:164][867]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.01.27-16.31.04:164][867]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.01.27-16.31.04:164][867]LogInit: FAudioDevice initialized.
+[2022.01.27-16.31.04:164][867]LogAudio: Display: Audio Device (ID: 63) registered with world 'FirstPersonExampleMap'.
+[2022.01.27-16.31.04:216][867]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.27-16.31.04:216][867]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2022.01.27-16.31.04:218][867]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2022.01.27-17.31.04
+[2022.01.27-16.31.04:219][867]LogWorld: Bringing up level for play took: 0.002355
+[2022.01.27-16.31.04:219][867]LogOnline: OSS: Creating online subsystem instance for: :Context_68
+[2022.01.27-16.31.04:221][867]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2022.01.27-16.31.04:226][867]PIE: Server logged in
+[2022.01.27-16.31.04:230][867]PIE: Play in editor total start time 0,172 seconds.
+[2022.01.27-16.31.06:581][  5]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] on met false
+[2022.01.27-16.31.08:407][130]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 190.0
+[2022.01.27-16.31.08:421][131]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 180.0
+[2022.01.27-16.31.08:436][132]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 170.0
+[2022.01.27-16.31.08:450][133]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 160.0
+[2022.01.27-16.31.08:464][134]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 150.0
+[2022.01.27-16.31.08:480][135]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 140.0
+[2022.01.27-16.31.08:494][136]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 130.0
+[2022.01.27-16.31.08:522][138]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 120.0
+[2022.01.27-16.31.09:180][183]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 490.0
+[2022.01.27-16.31.09:738][221]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 480.0
+[2022.01.27-16.31.09:754][222]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 470.0
+[2022.01.27-16.31.09:767][223]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 460.0
+[2022.01.27-16.31.09:795][225]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 450.0
+[2022.01.27-16.31.09:837][228]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 440.0
+[2022.01.27-16.31.10:132][249]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 490.0
+[2022.01.27-16.31.10:132][249]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 480.0
+[2022.01.27-16.31.10:146][250]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 470.0
+[2022.01.27-16.31.10:162][251]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 460.0
+[2022.01.27-16.31.10:163][251]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 450.0
+[2022.01.27-16.31.10:205][254]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 440.0
+[2022.01.27-16.31.15:592][625]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] on met false
+[2022.01.27-16.31.25:164][301]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.27-16.31.25:164][301]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.01.27-16.31.25:164][301]LogSlate: Window 'MyProject Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.01.27-16.31.25:169][301]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.01.27-16.31.25:169][301]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.27-16.31.25:183][301]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.27-16.31.25:186][301]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.27-16.31.25:213][301]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.27-16.31.25:214][301]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.27-16.31.25:220][301]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2022.01.27-16.31.25:248][301]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2022.01.27-16.31.25:268][302]LogPlayLevel: Display: Destroying online subsystem :Context_68
+[2022.01.27-16.31.45:132][770]LogEditorTransaction: Undo Add Node
+[2022.01.27-16.31.49:880][ 42]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.01.27-16.31.49:889][ 42]BlueprintLog: New page: Pre-Play auto-recompile
+[2022.01.27-16.31.49:890][ 42]LogPlayLevel: [PlayLevel] Compiling FirstPersonCharacter before play...
+[2022.01.27-16.31.50:043][ 42]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2022.01.27-16.31.50:048][ 42]LogPlayLevel: PlayLevel: Blueprint regeneration took 157 ms (1 blueprints)
+[2022.01.27-16.31.50:048][ 42]PIE: New page: PIE session: FirstPersonExampleMap (27 janv. 2022 à 18:31:50)
+[2022.01.27-16.31.50:048][ 42]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.01.27-16.31.50:063][ 42]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015364s)
+[2022.01.27-16.31.50:064][ 42]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2022.01.27-16.31.50:064][ 42]LogPlayLevel: PIE: World Init took: (0.001475s)
+[2022.01.27-16.31.50:064][ 42]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.017026s)
+[2022.01.27-16.31.50:106][ 42]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2022.01.27-16.31.50:107][ 42]LogAudio: Display: Creating Audio Device:                 Id: 64, Scope: Unique, Realtime: True
+[2022.01.27-16.31.50:107][ 42]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.27-16.31.50:107][ 42]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.27-16.31.50:107][ 42]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.27-16.31.50:107][ 42]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.27-16.31.50:107][ 42]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.27-16.31.50:107][ 42]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.27-16.31.50:107][ 42]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.27-16.31.50:107][ 42]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.27-16.31.50:108][ 42]LogAudio: Display: Using built-in audio occlusion.
+[2022.01.27-16.31.50:108][ 42]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.27-16.31.50:120][ 42]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.27-16.31.50:121][ 42]LogAudioMixer: Display: 1: FrontRight
+[2022.01.27-16.31.50:145][ 42]LogAudioMixer: Display: Using Audio Device VX228 (NVIDIA High Definition Audio)
+[2022.01.27-16.31.50:145][ 42]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.27-16.31.50:145][ 42]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.27-16.31.50:145][ 42]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.27-16.31.50:146][ 42]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.01.27-16.31.50:146][ 42]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.01.27-16.31.50:147][ 42]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.01.27-16.31.50:147][ 42]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.01.27-16.31.50:147][ 42]LogInit: FAudioDevice initialized.
+[2022.01.27-16.31.50:147][ 42]LogAudio: Display: Audio Device (ID: 64) registered with world 'FirstPersonExampleMap'.
+[2022.01.27-16.31.50:199][ 42]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.27-16.31.50:199][ 42]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2022.01.27-16.31.50:201][ 42]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2022.01.27-17.31.50
+[2022.01.27-16.31.50:202][ 42]LogWorld: Bringing up level for play took: 0.002385
+[2022.01.27-16.31.50:202][ 42]LogOnline: OSS: Creating online subsystem instance for: :Context_69
+[2022.01.27-16.31.50:204][ 42]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2022.01.27-16.31.50:205][ 42]PIE: Server logged in
+[2022.01.27-16.31.50:206][ 42]PIE: Play in editor total start time 0,319 seconds.
+[2022.01.27-16.31.51:248][ 70]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] on met false
+[2022.01.27-16.31.52:995][150]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 490.0
+[2022.01.27-16.31.53:016][151]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 480.0
+[2022.01.27-16.32.04:173][669]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] true
+[2022.01.27-16.32.06:868][794]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] true
+[2022.01.27-16.32.08:416][865]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] true
+[2022.01.27-16.32.10:247][948]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] true
+[2022.01.27-16.32.11:671][ 14]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] true
+[2022.01.27-16.32.13:281][ 89]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] true
+[2022.01.27-16.32.15:723][202]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] true
+[2022.01.27-16.32.17:938][302]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] on met false
+[2022.01.27-16.32.18:304][319]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] on met false
+[2022.01.27-16.32.18:496][328]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] on met false
+[2022.01.27-16.32.18:802][342]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] on met false
+[2022.01.27-16.32.19:382][369]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] on met false
+[2022.01.27-16.32.20:934][441]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 190.0
+[2022.01.27-16.32.21:105][449]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 180.0
+[2022.01.27-16.32.21:149][451]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 170.0
+[2022.01.27-16.32.21:172][452]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 160.0
+[2022.01.27-16.32.21:636][473]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 150.0
+[2022.01.27-16.32.21:658][474]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 140.0
+[2022.01.27-16.32.22:046][492]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 130.0
+[2022.01.27-16.32.22:066][493]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 120.0
+[2022.01.27-16.32.22:088][494]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 110.0
+[2022.01.27-16.32.22:131][496]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 100.0
+[2022.01.27-16.32.22:568][516]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 90.0
+[2022.01.27-16.32.24:333][597]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 190.0
+[2022.01.27-16.32.24:355][598]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 180.0
+[2022.01.27-16.32.24:377][599]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 170.0
+[2022.01.27-16.32.24:420][601]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 160.0
+[2022.01.27-16.32.24:464][603]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 150.0
+[2022.01.27-16.32.24:853][621]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 140.0
+[2022.01.27-16.32.24:875][622]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 130.0
+[2022.01.27-16.32.24:899][623]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 120.0
+[2022.01.27-16.32.24:921][624]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 110.0
+[2022.01.27-16.32.24:943][625]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 100.0
+[2022.01.27-16.32.25:245][639]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 90.0
+[2022.01.27-16.32.25:267][640]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 80.0
+[2022.01.27-16.32.25:332][643]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 190.0
+[2022.01.27-16.32.25:936][671]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 490.0
+[2022.01.27-16.32.25:957][672]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 480.0
+[2022.01.27-16.32.25:980][673]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 470.0
+[2022.01.27-16.32.26:000][674]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 460.0
+[2022.01.27-16.32.26:022][675]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 450.0
+[2022.01.27-16.32.26:044][676]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 440.0
+[2022.01.27-16.32.26:065][677]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 430.0
+[2022.01.27-16.32.27:636][748]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 420.0
+[2022.01.27-16.32.28:373][782]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 410.0
+[2022.01.27-16.32.28:416][784]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 400.0
+[2022.01.27-16.32.28:438][785]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 390.0
+[2022.01.27-16.32.28:482][787]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 380.0
+[2022.01.27-16.32.28:523][789]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 370.0
+[2022.01.27-16.32.28:546][790]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 360.0
+[2022.01.27-16.32.28:588][792]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 350.0
+[2022.01.27-16.32.28:612][793]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 340.0
+[2022.01.27-16.32.28:982][810]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 330.0
+[2022.01.27-16.32.29:005][811]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 320.0
+[2022.01.27-16.32.29:027][812]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 310.0
+[2022.01.27-16.32.29:028][812]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 300.0
+[2022.01.27-16.32.29:050][813]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 290.0
+[2022.01.27-16.32.29:050][813]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 280.0
+[2022.01.27-16.32.29:332][826]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 270.0
+[2022.01.27-16.32.29:353][827]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 260.0
+[2022.01.27-16.32.29:376][828]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 250.0
+[2022.01.27-16.32.29:701][843]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 240.0
+[2022.01.27-16.32.29:722][844]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 230.0
+[2022.01.27-16.32.29:745][845]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 220.0
+[2022.01.27-16.32.29:766][846]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 210.0
+[2022.01.27-16.32.29:789][847]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 200.0
+[2022.01.27-16.32.29:812][848]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 190.0
+[2022.01.27-16.32.31:685][933]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 490.0
+[2022.01.27-16.32.31:707][934]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 480.0
+[2022.01.27-16.32.31:731][935]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 470.0
+[2022.01.27-16.32.31:752][936]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 460.0
+[2022.01.27-16.32.31:772][937]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 450.0
+[2022.01.27-16.32.31:816][939]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 440.0
+[2022.01.27-16.32.32:230][958]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 430.0
+[2022.01.27-16.32.32:252][959]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 420.0
+[2022.01.27-16.32.32:273][960]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 410.0
+[2022.01.27-16.32.32:297][961]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 400.0
+[2022.01.27-16.32.32:317][962]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 390.0
+[2022.01.27-16.32.32:595][975]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 380.0
+[2022.01.27-16.32.32:618][976]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 370.0
+[2022.01.27-16.32.32:618][976]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 360.0
+[2022.01.27-16.32.32:640][977]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 350.0
+[2022.01.27-16.32.32:663][978]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 340.0
+[2022.01.27-16.32.33:140][  0]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 490.0
+[2022.01.27-16.32.33:253][  5]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 480.0
+[2022.01.27-16.32.33:275][  6]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 470.0
+[2022.01.27-16.32.33:299][  7]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 460.0
+[2022.01.27-16.32.33:346][  9]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 450.0
+[2022.01.27-16.32.39:080][271]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 440.0
+[2022.01.27-16.32.39:141][274]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 430.0
+[2022.01.27-16.32.39:186][276]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 420.0
+[2022.01.27-16.32.39:230][278]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 410.0
+[2022.01.27-16.32.39:273][280]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 400.0
+[2022.01.27-16.32.39:316][282]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 390.0
+[2022.01.27-16.32.39:382][285]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 380.0
+[2022.01.27-16.32.39:874][307]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 370.0
+[2022.01.27-16.32.39:897][308]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 360.0
+[2022.01.27-16.32.39:918][309]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 350.0
+[2022.01.27-16.32.39:963][311]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 340.0
+[2022.01.27-16.32.40:007][313]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 330.0
+[2022.01.27-16.32.40:249][324]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 320.0
+[2022.01.27-16.32.40:271][325]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 310.0
+[2022.01.27-16.32.40:295][326]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 300.0
+[2022.01.27-16.32.40:317][327]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 290.0
+[2022.01.27-16.32.40:606][340]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 280.0
+[2022.01.27-16.32.40:630][341]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 270.0
+[2022.01.27-16.32.40:652][342]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 260.0
+[2022.01.27-16.32.40:912][354]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 250.0
+[2022.01.27-16.32.40:934][355]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 240.0
+[2022.01.27-16.32.40:955][356]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 230.0
+[2022.01.27-16.32.40:979][357]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 220.0
+[2022.01.27-16.32.41:580][385]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 210.0
+[2022.01.27-16.32.41:601][386]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 200.0
+[2022.01.27-16.32.41:622][387]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 190.0
+[2022.01.27-16.32.41:646][388]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 180.0
+[2022.01.27-16.32.41:893][399]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 170.0
+[2022.01.27-16.32.41:916][400]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 160.0
+[2022.01.27-16.32.41:938][401]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 150.0
+[2022.01.27-16.32.41:960][402]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 140.0
+[2022.01.27-16.32.41:983][403]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 130.0
+[2022.01.27-16.32.42:291][417]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 120.0
+[2022.01.27-16.32.42:313][418]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 110.0
+[2022.01.27-16.32.42:335][419]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 100.0
+[2022.01.27-16.32.42:356][420]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 90.0
+[2022.01.27-16.32.42:642][433]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 190.0
+[2022.01.27-16.32.42:664][434]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 180.0
+[2022.01.27-16.32.42:687][435]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 170.0
+[2022.01.27-16.32.42:710][436]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 160.0
+[2022.01.27-16.32.42:970][448]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 150.0
+[2022.01.27-16.32.42:995][449]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 140.0
+[2022.01.27-16.32.43:016][450]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 130.0
+[2022.01.27-16.32.43:038][451]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 120.0
+[2022.01.27-16.32.43:484][471]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 110.0
+[2022.01.27-16.32.43:552][474]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 100.0
+[2022.01.27-16.32.43:621][477]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 90.0
+[2022.01.27-16.32.43:945][491]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 190.0
+[2022.01.27-16.32.43:968][492]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 180.0
+[2022.01.27-16.32.43:992][493]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 170.0
+[2022.01.27-16.32.44:036][495]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 160.0
+[2022.01.27-16.32.44:330][508]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 150.0
+[2022.01.27-16.32.44:353][509]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 140.0
+[2022.01.27-16.32.44:377][510]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 130.0
+[2022.01.27-16.32.44:400][511]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 120.0
+[2022.01.27-16.32.44:716][525]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 110.0
+[2022.01.27-16.32.44:740][526]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 100.0
+[2022.01.27-16.32.44:765][527]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 90.0
+[2022.01.27-16.32.44:788][528]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 80.0
+[2022.01.27-16.32.45:300][551]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 190.0
+[2022.01.27-16.32.46:113][586]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 180.0
+[2022.01.27-16.32.46:156][588]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 170.0
+[2022.01.27-16.32.46:180][589]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 160.0
+[2022.01.27-16.32.46:202][590]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] 150.0
+[2022.01.27-16.32.46:454][601]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_BreakHitResult_HitActor". Blueprint:  FirstPersonCharacter Function:  Execute Ubergraph First Person Character Graph:  EventGraph Node:  SetActorLocation
+[2022.01.27-16.32.47:472][647]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.27-16.32.47:472][647]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.01.27-16.32.47:473][647]LogSlate: Window 'MyProject Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.01.27-16.32.47:479][647]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.01.27-16.32.47:479][647]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.27-16.32.47:486][647]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.27-16.32.47:490][647]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.27-16.32.47:515][647]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.27-16.32.47:516][647]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.27-16.32.47:524][647]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2022.01.27-16.32.47:562][647]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2022.01.27-16.32.47:617][648]LogPlayLevel: Display: Destroying online subsystem :Context_69
+[2022.01.27-16.33.59:377][ 84]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.01.27-16.33.59:386][ 84]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.01.27-16.33.59:386][ 84]PIE: New page: PIE session: FirstPersonExampleMap (27 janv. 2022 à 18:33:59)
+[2022.01.27-16.33.59:408][ 84]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.01.27-16.33.59:421][ 84]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012785s)
+[2022.01.27-16.33.59:422][ 84]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2022.01.27-16.33.59:422][ 84]LogPlayLevel: PIE: World Init took: (0.001334s)
+[2022.01.27-16.33.59:422][ 84]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014330s)
+[2022.01.27-16.33.59:452][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2022.01.27-16.33.59:454][ 84]LogAudio: Display: Creating Audio Device:                 Id: 65, Scope: Unique, Realtime: True
+[2022.01.27-16.33.59:454][ 84]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.27-16.33.59:454][ 84]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.27-16.33.59:454][ 84]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.27-16.33.59:454][ 84]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.27-16.33.59:454][ 84]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.27-16.33.59:454][ 84]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.27-16.33.59:454][ 84]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.27-16.33.59:454][ 84]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.27-16.33.59:455][ 84]LogAudio: Display: Using built-in audio occlusion.
+[2022.01.27-16.33.59:455][ 84]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.27-16.33.59:468][ 84]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.27-16.33.59:468][ 84]LogAudioMixer: Display: 1: FrontRight
+[2022.01.27-16.33.59:492][ 84]LogAudioMixer: Display: Using Audio Device VX228 (NVIDIA High Definition Audio)
+[2022.01.27-16.33.59:493][ 84]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.27-16.33.59:493][ 84]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.27-16.33.59:493][ 84]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.27-16.33.59:493][ 84]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.01.27-16.33.59:493][ 84]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.01.27-16.33.59:494][ 84]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.01.27-16.33.59:494][ 84]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.01.27-16.33.59:494][ 84]LogInit: FAudioDevice initialized.
+[2022.01.27-16.33.59:494][ 84]LogAudio: Display: Audio Device (ID: 65) registered with world 'FirstPersonExampleMap'.
+[2022.01.27-16.33.59:506][ 84]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2022.01.27-16.33.59:508][ 84]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2022.01.27-17.33.59
+[2022.01.27-16.33.59:508][ 84]LogWorld: Bringing up level for play took: 0.002220
+[2022.01.27-16.33.59:508][ 84]LogOnline: OSS: Creating online subsystem instance for: :Context_70
+[2022.01.27-16.33.59:511][ 84]PIE: Server logged in
+[2022.01.27-16.33.59:511][ 84]PIE: Play in editor total start time 0,128 seconds.
+[2022.01.27-16.34.01:466][205]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] true
+[2022.01.27-16.34.02:869][293]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] true
+[2022.01.27-16.34.04:240][385]LogBlueprintUserMessages: [FirstPersonCharacter_C_1] true
+[2022.01.27-16.34.04:811][422]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.27-16.34.04:811][422]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2022.01.27-16.34.04:811][422]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.01.27-16.34.04:811][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.27-16.34.04:819][422]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.27-16.34.04:823][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.27-16.34.04:856][422]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.27-16.34.04:857][422]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.27-16.34.04:858][422]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.27-16.34.04:864][422]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2022.01.27-16.34.04:890][422]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2022.01.27-16.34.04:916][423]LogPlayLevel: Display: Destroying online subsystem :Context_70
